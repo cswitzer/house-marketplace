@@ -266,6 +266,23 @@ button {
   }
 }
 
+.signInButton,
+.signUpButton {
+  transition: all 0.1s linear;
+}
+
+.signInButton:hover,
+.signUpButton:hover {
+  transform: scale(1.1);
+  background-color: #ffffff;
+  border: 0.5px solid black;
+}
+
+.signInButton:hover > .arrow-right-icon,
+.signUpButton:hover > .arrow-right-icon {
+  fill: #00cc66 !important;
+}
+
 .socialLogin {
   margin-top: 4rem;
   display: flex;
